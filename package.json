@@ -1,0 +1,33 @@
+{
+  "name": "@festivaldev/uberstrike-js",
+  "version": "4.7.1",
+  "description": "",
+  "scripts": {
+    "build": "rimraf dist && tsc && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "exports": {
+    "./Cmune/Core/Models/Views": "./dist/Cmune/Core/Models/Views/index.js",
+    "./Cmune/Core/Models": "./dist/Cmune/Core/Models/index.js",
+    "./Cmune/DataCenter/Common/Entities": "./dist/Cmune/DataCenter/Common/Entities/index.js",
+    "./UberStrike/Core/Models/Views": "./dist/UberStrike/Core/Models/Views/index.js",
+    "./UberStrike/Core/Models": "./dist/UberStrike/Core/Models/index.js",
+    "./UberStrike/Core/Serialization": "./dist/UberStrike/Core/Serialization/index.js",
+    "./UberStrike/Core/Types": "./dist/UberStrike/Core/Types/index.js",
+    "./UberStrike/Core/ViewModel": "./dist/UberStrike/Core/ViewModel/index.js",
+    "./UberStrike/DataCenter/Common/Entities": "./dist/UberStrike/DataCenter/Common/Entities/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "rimraf": "^5.0.5",
+    "tsc-alias": "^1.8.8"
+  }
+}
